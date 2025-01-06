@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
     <title>Form bana bo programming sikbo</title>
 </head>
 <body>
     <h1>FORM</h1>
+    <form action="">
+        <label for="name">
+            Name:
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <label for="email">
+            Email:
+            <input id="email" type="email" placeholder="Your Email">
+        </label>
+        <label for="phone">
+            Phone:
+            <input type="phone" type="phone" placeholder="Your Phone">
+        </label>
+        <fieldset >
+            <legend>
+                Pick One
+            </legend>
+            <label for="Pita">
+                Pita
+                <input type="radio" name="p" id="pita">
+            </label>
+            <label for="vapa">
+                Vapa 
+                <input type="radio" name="p" id="Vapa">
+            </label>
+            <label for="patispata">
+                patispata
+                <input type="radio" name="p" id="patispata">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Votra
+            </legend>
+            <label for="moric">
+                moric
+                <input type="checkbox" name="Votra" id="moric">
+            </label>
+            <label for="sutki">
+                sutki
+                <input type="checkbox" name="Votra" id="sutki">
+            </label>
+            <label for="sos">
+                Sos
+                <input type="checkbox" name="Votra" id="sos">
+            </label>
+        </fieldset>
+        <label for="Reset">
+            <input type="reset" name="Reset" id="Reset">
+        </label>
+        <label for="Submit">
+            <input type="submit" name="submit" id="submit">
+        </label>
+    </form>
 </body>
 </html>
